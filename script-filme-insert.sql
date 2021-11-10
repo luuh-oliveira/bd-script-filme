@@ -5,6 +5,9 @@
 insert into tblGenero (nome) 
 				values ('Aventura');
                 
+insert into tblGenero (nome) 
+				values ('Romance');
+
 #insert de multiplos valores 
 #Genero
 insert into tblGenero (nome) 
@@ -73,5 +76,10 @@ insert into tblFilmeGenero (idFilme, idGenero)
 
 update tblfilme set duracao = '03:00:00' where idFilme = 1;
 
-select * from tblfilme;
+#-----------------------DELETE----------------------------
+
+delete from tblgenero where idGenero = 7;
+
+
+select * from tblgenero;
 
