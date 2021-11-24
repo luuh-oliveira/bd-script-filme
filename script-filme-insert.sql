@@ -34,33 +34,26 @@ dataRelancamento,
 sinopse, 
 nomeOriginal, 
 fotoCapa, 
-idClassificacao)
-				values ('UM SONHO DE LIBERDADE',
+idClassificacao,
+qtde)
+				values ('FORREST GUMP - O CONTADOR DE HISTÓRIAS',
                 '02:20:00',
-                '1995-01-25',
+                '1994-12-07',
                 null,
-                'Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida radicalmente modificada.
-                ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para uma 
-                prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá cumprir a 
-                pena perpétua. Andy logo será apresentado a Warden Norton (Bob Gunton), o corrupto e cruel agente penitenciário, 
-                que usa a Bíblia como arma de controle e ao Capitão Byron Hadley (Clancy Brown) que trata os internos como animais. 
-                Andy faz amizade com Ellis Boyd Redding (Morgan Freeman), um prisioneiro que cumpre pena há 20 anos e controla 
-                o mercado negro da instituição.',
-                'The Shawshank Redemption',
-                'filme01.jpg',
-                4),
-                ('O REI LEÃO',
-                '01:29:00',
-                '1994-07-08',
-                '2011-08-26',
-                'Clássico da Disney, a animação acompanha Mufasa (voz de James Earl Jones), o Rei Leão, e a 
-                rainha Sarabi (voz de Madge Sinclair), apresentando ao reino o herdeiro do trono, Simba (voz de 
-                Matthew Broderick). O recém-nascido recebe a bênção do sábio babuíno Rafiki (voz de Robert Guillaume), 
-                mas ao crescer é envolvido nas artimanhas de seu tio Scar (voz de Jeremy Irons), o invejoso e 
-                maquiavélico irmão de Mufasa, que planeja livrar-se do sobrinho e herdar o trono.',
-                'The Lion King',
-                'foto02.png',
-                6);
+                'Quarenta anos da história dos Estados Unidos, vistos pelos olhos de Forrest Gump (Tom Hanks), um rapaz com QI abaixo da média e boas intenções. Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietnã e Watergate, mas continua pensando no seu amor de infância, Jenny Curran.',
+                'Forrest Gump',
+                'filme03.jpg',
+                4,
+                3),
+                ('À ESPERA DE UM MILAGRE',
+                '03:09:00',
+                '2000-03-10',
+                null,
+                '1935, no corredor da morte de uma prisão sulista. Paul Edgecomb (Tom Hanks) é o chefe de guarda da prisão, que temJohn Coffey (Michael Clarke Duncan) como um de seus prisioneiros. Aos poucos, desenvolve-se entre eles uma relação incomum, baseada na descoberta de que o prisioneiro possui um dom mágico que é, ao mesmo tempo, misterioso e milagroso.',
+                'The Green Mile',
+                'foto04.png',
+                4,
+                4);
                 
 #obs insert: datas - yyyy-MM-dd / hora - 00:00:00 / null qdo n tiver valor
 
@@ -82,4 +75,5 @@ delete from tblgenero where idGenero = 7;
 
 
 select * from tblgenero;
+
 

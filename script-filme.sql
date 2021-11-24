@@ -55,7 +55,7 @@ show tables;
 
 	#permite adicionar novo atributo
 	alter table tblAtor
-		add column foto varchar(80);
+		add column dataFalecimento date;
 
 	#adicionar relacionamento em tabela já existente
 	alter table tblAtor
