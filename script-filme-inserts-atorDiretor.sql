@@ -3,6 +3,7 @@ select * from tblnacionalidade;
 select * from tblator;
 select * from tbldiretor;
 select * from tblatornacionalidade;
+select * from tbldiretornacionalidade;
 
 insert into tblsexo (nome) 
 				values ('Masculino'),
@@ -62,4 +63,9 @@ insert into tblatornacionalidade (idAtor, idNacionalidade)
                     (5,1),
                     (6,3);
                     
+insert into tbldiretornacionalidade (idDiretor, idNacionalidade)
+				values(1,1),
+					(2,1),
+                    (2,4),
+                    (3,1);
                     

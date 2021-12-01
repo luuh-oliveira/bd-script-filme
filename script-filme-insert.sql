@@ -63,6 +63,22 @@ insert into tblFilmeGenero (idFilme, idGenero)
 							(2,2),
                             (2,3),
                             (2,4);
+                            
+select * from tblAtor;
+select * from tblFilme;
+
+
+
+insert into tblFilmeAtor (idFilme, idAtor)
+					values(3,1),
+						(3,3),
+                        (1,5),
+                        (1,4),
+                        (2,6),
+                        (4,1),
+                        (4,2);
+
+
 
 
 #-----------------------UPDATE----------------------------

@@ -50,7 +50,7 @@ update tblFilme set qtde = 8 where idFilme = 1;
 
 select * from tblFilme where qtde <= 8;
 
-#Exemplo de utilização do operadot lógico
+#Exemplo de utilização do operador lógico
 select * from tblFilme where qtde >=6 and qtde <= 10;
 
 select * from tblFilme 
